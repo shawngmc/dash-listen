@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Osbert Feng
+MAINTAINER Shawn McNaughton
 
 USER root
 RUN apt-get update -qq && apt-get install -qq -y python-scapy tcpdump tcpreplay wireshark python-requests
